@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  width: 100%;
+  background-color: black;
+  height: 50px;
+}
+body{
+  background-image: url(https://oir.mobi/uploads/posts/2021-03/1616990293_11-p-fon-dlya-risovaniya-12.jpg);
+}
+h1{
+  font-size: 48px;
+  text-align: center;
+  font-weight: 600;
+  color: red;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+img{
+  margin: 10px;
+  height: 400px;
+}
+span{
+  color: darkblue;
+  font-size: 24px;
+}
+footer{
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  border-top: 2px solid orange;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first{
+  z-index: 1;
+  text-align: center;
+  color: red;
+  font-size: 48px;
+}
+.nav{
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+}
+.nav_el{
+  font-size: 24px;
+  padding: 50px;
+}
+.nav_el:hover{
+  color: skyblue;
+}
+.block__menu{
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+.title_tanks{
+  color: darkred;
+  background-color: orange;
+  text-align: center;
+  font-size: 36px;
+}
+.short{
+  background-color: black;
+  width: 100%;
+  border-radius: 8px;
+  height: 160px;
+}
+.short-text{
+  font-size: 24px;
+  color: orange;
+}
+.images{
+  width: 100%;
+  text-align: center;
+  height: 500px;
+  padding-top: 40px;
+}
+.row{
+  width: 100%;
+  height: 225px;
+  display: flex;
+}
+.img{
+  text-align: center;
+  color: white;
+  width: 18%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.flow{
+  width: 100%;
+  height: 1000px;
+  background-color: yellow;
+  opacity: 0.5;
+  z-index: 0;
+  position: absolute;
+}
+.tanks{
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.info-foot{
+  margin-left: 40px;
+}
+.tank{
+  border: 1px solid red;
+  width: 50%;
+  z-index: 1;
+}
+.title_types{
+  text-align: center;
+  font-size: 36px;
+  color: darkgreen;
+}
+.info-tank{
+  width: 33%;
+  height: 100px;
+}
+.text-info{
+  font-size: 18px;
+  color: blue;
+}
+.mystory{
+  width: 100%;
+  text-align: center;
+}
+.history-img{
+  width: 200px;
+  height: 100px;
+}
+.story{
+  background-color: darkblue;
+  border: 1px solid white;
+  box-shadow: 1px 1px 10px 1px white;
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+}
+.history{
+  text-align: center;
+  background-color: black;
+  color: white;
+  line-height: 1.5;
+}

@@ -1,0 +1,143 @@
+:root {
+    /* колір основного тексту  */
+    --main-color: #55666C;
+    /* другій колір  */
+    --second-color: #777253;
+    /* третій колір */
+    --third-color: #2196f3;
+    /* білий колір */
+    --write-color: #ffffff;
+    /* колір фону */
+    --color-fon: #2f303a;
+    // background-color: var(--write-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+// my code
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    border-radius: 0px 0px 15px 15px;
+}
+
+footer {
+    border-radius: 15px 15px 0 0;
+}
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+        align-items: center;
+        display: flex;
+        .logo {
+            font-weight: bold;
+            margin: 10px;
+            font-size: 2em;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            span {
+                color: var(--second-color);
+            }
+            text-shadow: 1px 2px 4px var(--second-color);
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            li {
+                padding: 0 30px;
+            }
+            li>a {
+                text-decoration: none;
+            }
+            li>a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .bascket {
+        margin: 10px;
+        font-size: 2em;
+        margin-right: 30px;
+        a {
+            i {
+                position: relative;
+                span {
+                    background-color: red;
+                    font-size: 15px;
+                    padding: 5px 10px;
+                    border-radius: 15px;
+                    position: absolute;
+                    left: 20px; // position: relative;
+                    bottom: 15px;
+                }
+            }
+        }
+        a:hover {
+            color: var(--second-color);
+            // text-decoration: underline;
+            text-shadow: 1px 1px 2px var(--second-color);
+        }
+    }
+}
+
+footer {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 2px 4px var(--second-color);
+    &:hover {
+        color: white;
+        // text-decoration: underline;
+        text-shadow: 1px 1px 2px var(--second-color);
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bascket.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="left">
+                <div class="logo"><a href="">Military<span>Shop</span></a></div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li>
+                            <a href="main.html">Товари</a>
+                        </li>
+                        <li>
+                            <a href="bascket.html">Кошик</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bascket">
+                <a href="bascket.html">
+                    <i class="fa-solid fa-cart-shopping"><span id="buscket">0</span></i>
+                </a>
+            </div>
+        </header>
+    </div>
+    <div class="container main-buscket">
+        <main class="buscket">
+            <div class="buscket-header">Корзина</div>
+            <hr>
+            <div class="products" id="cards">
+                <!-- <div class="card">
+                    <div class="img"><img src="./image/1.webp" alt=""></div>
+                    <div class="product">
+                        <div class="text-delete">
+                            <div class="product-text">
+                                Тактичні рукавички для військових з відкритими пальцями розмір XL
+                            </div>
+                            <div class="product-delete"><i class="fa-solid fa-trash"></i></div>
+                        </div>
+                        <div class="count-price">
+                            <div class="product-count">
+                                <input type="button" value="-">
+                                <span class="count"> 0 </span>
+                                <input type="button" value="+">
+                            </div>
+                            <div class="product-price">1000<span>₴</span></div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <hr>
+            <div class="order" id="isProducts">
+                <div class="order-deleteAll" onclick="deleteAll()">Видалити все <i class="fa-solid fa-trash"></i></div>
+                <div class="order-by">
+                    <div class="order-price"><span id="summOrder">0</span> <span class="grn">₴</span></div>
+                    <div class="btn">
+                        <input type="button" onclick="orderFinish()" value="Оформити замовлення">
+                    </div>
+                </div>
+            </div>
+            <div class=" order-empty" id="noProducts">
+                Корзина пуста, добавте товар!
+            </div>
+        </main>
+    </div>
+    <div class="container">
+        <footer>wesite@2022</footer>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/buscket.js"></script>
+</body>
+
+</html>

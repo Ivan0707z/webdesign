@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="left">
+                <div class="logo"><a href="">Military<span>Shop</span></a></div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li>
+                            <a href="main.html">Товари</a>
+                        </li>
+                        <li>
+                            <a href="bascket.html">Кошик</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bascket">
+                <a href="bascket.html">
+                    <i class="fa-solid fa-cart-shopping"><span id="buscket">0</span></i>
+                </a>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="salePage">
+            <div class="title">
+                Розпродаж товарів! Поспішайте!!!
+            </div>
+            <div class="timer">
+                <div class="text">
+                    До завершення акції залишилося:
+                </div>
+                <div class="finish" id="timer">
+                    <!-- 0 годин 0 хвилин 10 секунд -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <main>
+            <aside class="main" id="cards">
+            </aside>
+        </main>
+    </div>
+    <div class="container">
+        <div class="weather">
+            <h2 id="city">Місто</h2>
+            <div class="cloud_temp">
+                <div class="cloud-icon">
+                    <img id="cloud" src="#" alt="картинка хмарності">
+                </div>
+                <div class="temp"><span id="temp"></span>&deg; </div>
+            </div>
+            <div class="left">
+                <div class="wind">
+                    <div class="speed">Швидкість:<span id="speed"></span> м/с</div>
+                    <div class="deg">Напрямок: <span id="deg"></span>&deg;</div>
+                    <div class="gust">Пориви до: <span id="gust"></span> м/с</div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="feels_like">Відчувається як: <span id="feels_like"></span>&deg;</div>
+                <!-- <div class="pressure">Тиск:<span> 20</span></div> -->
+                <div class="humidity">Вологість: <span id="humidity"></span>%</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <footer>wesite@2022</footer>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+
+</html>

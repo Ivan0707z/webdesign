@@ -1,0 +1,54 @@
+.salePage {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: var(--main-color);
+    box-shadow: 1px 1px 2px gray;
+    .title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .timer {
+        .text {
+            padding: 20px 0;
+        }
+        .finish {
+            font-size: 25px;
+        }
+    }
+}
+
+.weather {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: var(--main-color);
+    width: 400px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px gray;
+    h2,
+    .cloud_temp {
+        width: 100%;
+    }
+    .cloud_temp {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .temp {
+            font-size: 30px;
+        }
+    }
+    .left,
+    .right {
+        width: 50%;
+        text-align: left;
+    }
+    .left {}
+    .right {}
+}

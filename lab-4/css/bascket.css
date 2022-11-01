@@ -1,0 +1,122 @@
+.main-buscket {
+  margin: 25px auto;
+}
+
+.buscket {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px gray;
+}
+.buscket hr {
+  border-color: white;
+  border-bottom: none;
+  margin: 0;
+}
+.buscket-header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.buscket .products .card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.buscket .products .card .img {
+  width: 20%;
+}
+.buscket .products .card .img img {
+  max-width: 100px;
+}
+.buscket .products .card .product {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.buscket .products .card .product .text-delete,
+.buscket .products .card .product .count-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.buscket .products .card .product .text-delete i {
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+}
+.buscket .products .card .product .text-delete i:hover {
+  color: var(--second-color);
+}
+.buscket .products .card .product .count-price .product-count input {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  color: var(--second-color);
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.buscket .products .card .product .count-price .product-count input:hover {
+  background-color: var(--second-color);
+  color: white;
+}
+.buscket .products .card .product .count-price .product-count .count {
+  font-size: 20px;
+}
+.buscket .products .card .product .count-price .product-price {
+  color: red;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.buscket .products .card .product .count-price .product-price span {
+  font-size: 0.9em;
+}
+.buscket .order {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+.buscket .order-deleteAll {
+  color: red;
+}
+.buscket .order-deleteAll:hover {
+  color: var(--main-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.buscket .order-empty {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.buscket .order-by {
+  border: 3px solid var(--main-color);
+  padding: 10px;
+  display: flex;
+}
+.buscket .order-by .order-price {
+  padding-right: 20px;
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.buscket .order-by .order-price .grn {
+  font-size: 0.7em;
+}
+.buscket .order-by .btn input {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  color: var(--second-color);
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.buscket .order-by .btn input:hover {
+  background-color: var(--second-color);
+  color: white;
+}/*# sourceMappingURL=bascket.css.map */

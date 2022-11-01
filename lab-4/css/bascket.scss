@@ -1,0 +1,133 @@
+.main-buscket {
+    margin: 25px auto;
+}
+
+.buscket {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px gray;
+    hr {
+        border-color: white;
+        border-bottom: none;
+        margin: 0;
+    }
+    &-header {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .products {
+        .card {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 20px;
+            .img {
+                img {
+                    max-width: 100px;
+                }
+                width: 20%;
+            }
+            .product {
+                width: 80%;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+                .text-delete,
+                .count-price {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .text-delete {
+                    i {
+                        color: red;
+                        cursor: pointer;
+                        font-size: 20px;
+                        &:hover {
+                            color: var(--second-color);
+                        }
+                    }
+                }
+                .count-price {
+                    .product-count {
+                        input {
+                            border-radius: 10px;
+                            border: none;
+                            padding: 5px 15px;
+                            color: var(--second-color);
+                            font-weight: bold;
+                            font-size: 20px;
+                            cursor: pointer;
+                            &:hover {
+                                background-color: var(--second-color);
+                                color: white;
+                            }
+                        }
+                        .count {
+                            font-size: 20px;
+                        }
+                    }
+                    .product-price {
+                        color: red;
+                        font-size: 1.2em;
+                        font-weight: bold;
+                        span {
+                            font-size: 0.9em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .order {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+        &-deleteAll {
+            color: red;
+            &:hover {
+                color: var(--main-color);
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        &-empty {
+            padding: 20px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        &-by {
+            border: 3px solid var(--main-color);
+            padding: 10px;
+            // background-color: var(--second-color);
+            display: flex;
+            .order-price {
+                padding-right: 20px;
+                color: red;
+                font-size: 1.5em;
+                font-weight: bold;
+                .grn {
+                    font-size: 0.7em;
+                }
+            }
+            .btn {
+                input {
+                    border-radius: 10px;
+                    border: none;
+                    padding: 5px 15px;
+                    color: var(--second-color);
+                    font-weight: bold;
+                    font-size: 20px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: var(--second-color);
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

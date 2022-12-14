@@ -1,0 +1,22 @@
+{
+  "name": "browser-client-mil-equip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Sass": "sass --watch public/scss/style.scss public/css/style.css",
+    "build": "sass public/scss/style.scss public/css/style.css && nodemon index.js"
+  },
+  "author": "Zaichko Ivan",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "sass": "^1.56.1"
+  }
+}

@@ -1,0 +1,106 @@
+{
+    "Oil": [
+        {
+            "id": 1,
+            "title": "Cоняшникова Олія",
+            "trend": "",
+            "image_link": "./img/Domashne-Sonyashnikove.png"
+        },
+        {
+            "id": 2,
+            "title": "Cоєва Олія",
+            "trend": "",
+            "image_link": "./img/Soevoe.png"
+        },
+        {
+            "id": 3,
+            "title": "Олія з Волохського Горіха",
+            "trend": "",
+            "image_link": "./img/Gretskogo_oreha.png"
+        },
+        {
+            "id": 4,
+            "title": "Арахісова Олія",
+            "trend": "",
+            "image_link": "./img/Arahisovoe.png"
+        },
+        {
+            "id": 5,
+            "title": "Олія Розторопші",
+            "trend": "",
+            "image_link": "./img/Rastoropshy.png"
+        },
+        {
+            "id": 6,
+            "title": "Гірчична Олія",
+            "trend": "",
+            "image_link": "./img/Gorchichnoe.png"
+        },
+        {
+            "id": 7,
+            "title": "Кукурудзяна Олія",
+            "trend": "",
+            "image_link": "./img/Zarod_kukuruzy.png"
+        },
+        {
+            "id": 8,
+            "title": "Кунжутна олія",
+            "trend": "",
+            "image_link": "./img/Kunjutnoe.png"
+        },
+        {
+            "id": 9,
+            "title": "Гарбузова Олія",
+            "trend": "",
+            "image_link": "./img/Tykvennoe.png"
+        },
+        {
+            "id": 10,
+            "title": "Лляна Олія",
+            "trend": "",
+            "image_link": "./img/Lnyanoe.png"
+        },
+        {
+            "id": 11,
+            "title": "Олія чорного кмину",
+            "trend": "",
+            "image_link": "./img/Chernogo_tmina.png"
+        },
+        {
+            "id": 12,
+            "title": "Олія шипшини",
+            "trend": "",
+            "image_link": "./img/Shipovnika.png"
+        },
+        {
+            "id": 13,
+            "title": "Олія зародків пшениці",
+            "trend": "",
+            "image_link": "./img/Zarod_pshenitsy.png"
+        },
+        {
+            "id": 14,
+            "title": "Олія конопляна",
+            "trend": "",
+            "image_link": "./img/Konoplyanoe.png"
+        },
+        {
+            "id": 15,
+            "title": "Олія часникова",
+            "trend": "",
+            "image_link": "./img/Chesnochnoe.png"
+        },
+        {
+            "id": 16,
+            "title": "Олія амаранту",
+            "trend": "",
+            "image_link": "./img/Amaranta.png"
+        },
+        {
+            "id": 17,
+            "title": "Олія горіха макадамії",
+            "trend": "",
+            "image_link": "./img/Oreha_makadamii.png"
+        }
+    ]
+}
